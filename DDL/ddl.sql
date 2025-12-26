@@ -11,6 +11,7 @@ CREATE OR REPLACE TABLE HOSTS (
 
 CREATE OR REPLACE TABLE LISTINGS (
     listing_id NUMBER,
+    host_id NUMBER,
     property_type STRING,
     room_type STRING,
     city STRING,
